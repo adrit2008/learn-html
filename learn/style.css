@@ -1,0 +1,176 @@
+body {
+    background-image: url(Login.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+h1{
+    font-family: Orbitron, sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    font-display: auto;
+    text-shadow: 10px 0px 10px black;
+    text-align: center;
+    position: relative;
+    color: rgb(245, 217, 184);
+    padding: 10px;
+
+}
+#Login{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Sekuya", system-ui;
+}
+#box1{
+    border-radius: 10px;
+    border-color: aliceblue;
+    padding: 25px;
+    margin: 25px;
+    backdrop-filter: blur(5px);
+    height: auto;
+    width: 400px;
+    border-radius: 15px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10px 10px 20px black;
+}
+#label1{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+    color: rgb(224, 220, 220);
+    text-shadow: 10px 0px 10px rgb(0, 0, 0);
+}
+#label2{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 0px 10px black;
+}
+#label3{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 0px 10px black;
+}
+#label4{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+    color: white;
+    text-shadow: 10px 0px 10px black;
+}
+#label5{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+    color: white;
+    text-shadow: 10px 0px 10px black;
+}
+#label6{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+    color: rgb(0, 118, 252);
+    text-shadow: 10px 0px 10px black;
+}
+#label7{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+    color: rgb(255, 0, 242);
+    text-shadow: 10px 0px 10px black;
+}
+#label8{
+    text-align: center;
+     font-family: "Quicksand", sans-serif;
+     font-weight: 2000px;
+     font-size: 19px;
+  font-optical-sizing: auto;
+    color: rgb(89, 0, 255);
+    text-shadow: 10px 0px 10px black;
+}
+
+#LOGNI{
+    font-family: "jost", system-ui;
+   
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 0px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(0, 118, 252);
+    color: white;
+    border-color: none;
+    border: none;
+}
+#LOGNI:hover{
+    background-color: rgb(3, 255, 179);
+    color: black;
+    cursor: pointer;
+
+}
+#LOGNI::before{
+    content: "➤ ";
+    position: absolute;
+    height: auto;
+    width: auto;
+    background: conic-gradient( from 0deg at center, 
+    red, orange, yellow, green, blue, indigo, violet, red);
+
+}
+#reset{
+    font-family: "jost", system-ui;
+   
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 0px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(255, 0, 242);
+    color: white;
+    size: 10px;
+}
+@keyframes circlerainbow {
+    0%{
+        color: red;
+    }
+    16%{
+        color: orange;
+    }
+    32%{
+        color: yellow;
+    }
+    48%{
+        color: green;
+    }
+    64%{
+        color: blue;
+    }
+    80%{
+        color: indigo;
+    }
+    100%{
+        color: violet;
+    }
+}
